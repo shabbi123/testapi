@@ -1,0 +1,12 @@
+<h1 style="color:red;text-align:center">HTML servlet communication (using forms) </h1>
+
+<script language="JavaScript" src=js/validation.js"> </script> <center>
+	<form action="voterurl" method="GET" onsubmit="return validate(this)"><span></span>
+
+Person Name :: <input type="text" name="pname" style='text-align:center'><span id="pnameErr" style='color:red'></span>
+<br><br>
+Person Age  :: <input type="text" name="page" style='text-align:center'><span id="pageErr" style='color:red'>
+</span><br><br>
+<input type="submit" value="check voting elgibility">
+<input type="hidden" name="vstatus" value="no">
+</form> 
